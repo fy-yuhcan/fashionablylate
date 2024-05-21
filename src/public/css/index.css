@@ -1,0 +1,93 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+.title {
+    margin: 0;
+    font-size: 24px;
+}
+
+h2 {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.form {
+    width: 80%;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.1);
+}
+
+.form__group {
+    margin-bottom: 15px;
+}
+
+.form__group-title {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.form__label--item {
+    font-size: 16px;
+    font-weight: bold;
+    margin-right: 5px;
+}
+
+.form__label--required {
+    color: red;
+}
+
+.form__group-content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.form__group-content.name {
+    display: flex;
+    justify-content: space-between;
+}
+
+.form__input--text input[type="text"],
+.form__input--text input[type="email"],
+.form__input--text select,
+.form__input--text textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.phone_number {
+    display: flex;
+    justify-content: space-between;
+}
+
+.phone_number input[type="text"] {
+    width: 30%;
+}
+
+.form__button-submit {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+}
